@@ -75,9 +75,9 @@ namespace XMLReadWrite
                             let data = defModelData.Split(',')
                             select new FaultSectionDefModelData()
                             {
-                                faultSectionId = data[0],
-                                slipRate = data[1],
-                                aseismicSlip = data[2],
+                                faultSectionId = data[1],
+                                slipRate = data[2],
+                                aseismicSlip = data[4],
                                 slipRateStdDev = data[3]
                             } ;
 
